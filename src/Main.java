@@ -4,8 +4,8 @@ public class Main {
     public static Employee[] employees = new Employee[10];
 
     public static void main(String[] args) {
-        employees[0] = new Employee("Джони Деп", 1, 2000);
-        employees[1] = new Employee("Иванов Иван", 2, 2500);
+        employees[0] = new Employee("Джони Деп ", 1, 2000);
+        employees[1] = new Employee("Иванов Иван ", 2, 2500);
         // Добавьте остальные записи о сотрудниках
 
         printAllEmployees();
@@ -53,6 +53,7 @@ public class Main {
         }
         return maxSalaryEmployee;
     }
+
 
     public static double calculateAverageSalary() {
         double totalSalary = calculateTotalSalary();
